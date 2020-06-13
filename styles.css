@@ -1,0 +1,137 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #202020;
+    color: white;
+
+}
+
+hr.solid {
+  border-top: 1px solid white;
+  margin-top: 3px;
+}
+
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+    color: white;
+}
+
+h2 {
+    color: #ffcc00;
+}
+
+h4 {
+  font-family: "Lobster", cursive;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+.site-footer {
+    background-color: #202020;
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    color: white;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+.container-fluid {
+  padding-top: 10px;
+  height: 50px;
+}
+.bottom-left {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.top-right {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.card {
+  border-color: #ffcc00;
+  border-radius: 12px;
+}
+
+
+.body-style img:hover {
+  background-color: black;
+  opacity: 0.5;
+}
+
+#orderLink:hover {
+  background-color: black;
+  opacity: 0.7;
+}
+
+  /* Navigation */
+  .navbar{
+    height: 80px;
+    position: fixed;
+    width:100%;
+    transition: background-color 1s ease 0s;
+    }
+  .navbar-brand {
+    margin-top: -10px;
+    color: black;
+  }
+  .navbar-brand:hover {
+    color: #ffcc00;
+    border: 1px solid #ffcc00;
+  }
+  .navbar-nav li a {
+    color: #ffcc00;
+    margin: -10px 5px 5px 5px;
+  }
+  .navbar-nav li a:hover {
+    color: #ffcc00;
+    border: 1px solid #ffcc00;
+  }
+  .navbar-wrapper {
+    background-color: black;
+    opacity: 0.8;
+    Padding-top: 10px;
+}
+
+/*Carousel*/
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+  /*Read More*/
+  #more{
+    display:none;
+    }
+  
+
+
+
+
+
